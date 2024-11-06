@@ -1,0 +1,99 @@
+// bicycles = ['sally', 'kelly', 'rambo', 'sambo']
+// bicycles[-1] = 'dando'
+// bicycles.append('Risto')
+// print(bicycles[-1])
+// print ("The brand of my bicycle is a "+bicycles[-1].title()+" bike.")
+// print(bicycles)
+// del bicycles[3]
+// print(bicycles)
+// bicycles.append('Capristo')
+// print(bicycles)
+// pop_bike = bicycles.pop()
+// print(bicycles)
+// print("The name of the popped bike is "+pop_bike.title())
+
+
+// cities = {
+//     'ikeja': {
+//         'country':'naija',
+//         'population':'1000',
+//         'fact':'has air force base'
+//     },
+//     'bahia': {
+//         'country':'brazil',
+//         'population':'4000',
+//         'fact':'has good culture'
+//     },
+//     'houston': {
+//         'country':'us',
+//         'population':'5000',
+//         'fact':'has lots of restaurants'
+//     }
+// }
+
+// for city, info in cities.items():
+//     print("City: "+city.title())
+//     country = info['country']
+//     pop = info['population']
+//     facts = info['fact']
+    
+//     print("\tCountry: "+country.title())
+//     print("\tPopulation: "+pop.title())
+//     print("\tFacts: "+facts)
+
+
+// print("Welcome To Our Pizza Store!")
+// # toppings=input("What are your favorite pizza toppings? \nEnter first topping: ")
+// # toppings_list=[]
+// # toppings_list.append(toppings)
+
+// # for top in toppings_list:
+        
+// #         top=input("\nEnter another topping: ")
+// #         if top=='quit':
+// #             break
+// #         else: 
+// #             toppings_list.append(top)
+// # print("\n====Favorite Toppings List====")
+// # for the_list in toppings_list:
+// #     print(the_list.title())
+
+// Assignment: 
+// 1. Dictionaries: 
+// friends = {
+//     'Friend #1' : {
+//         'name':'anton',
+//         'hobby':'walking',
+//         'fav food':'eggs'  
+//     },
+//     'Friend #2' : {
+//         'name':'gracy',
+//         'hobby':'travelling',
+//         'fav food':'peanuts'  
+//     },
+//     'Friend #3' : {
+//         'name':'rich',
+//         'hobby':'biking',
+//         'fav food':'steak'  
+//     }
+    
+// }
+
+// for value, key in friends.items():
+//     print("\n")
+//     print(value.title())
+//     print("Info: ")
+//     print(key)
+
+//
+// def multiply(x,y):
+//     return x * y
+
+// add = multiply(5,3)
+// print(add)
+
+// def summing():
+//     list = [3,2,3,4,2]
+//     add=sum(list) 
+//     print(add)
+// summing()    
