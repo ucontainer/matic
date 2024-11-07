@@ -32,6 +32,10 @@ print(f"Fixed text: {fixed_text}")
 text = "hello world"
 print(text.capitalize())
 print(text.title())
+
+text = "tswazy"
+print(text.upper)
+print(text.lstrip)
     
         
     
